@@ -1,0 +1,6 @@
+services:
+  link_checker:
+    env_file:
+      - .env
+    restart: always
+    image: lcbruit/link_checker:latest
